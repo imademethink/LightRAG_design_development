@@ -1,0 +1,122 @@
+### Summary of Employee Handbook: Sample Policies (Rev. 2/2016)
+
+This document provides **sample policies for employee handbooks** designed to guide employers in creating clear, legally compliant workplace rules and procedures. It emphasizes the importance of legal review before implementation and offers multiple policy templates covering essential employment topics.
+
+---
+
+### Key Sections and Insights
+
+#### 1. **Purpose and Use of Employee Handbook**
+- Employee handbooks are tools for communicating company **philosophies, expectations, policies, and procedures**.
+- **Legal review by an attorney is strongly recommended** to ensure compliance and avoid wording that could weaken legal positions.
+- Consistent enforcement of handbook policies is critical to avoid **wrongful discharge or discrimination claims**.
+- Employees must receive a copy and be encouraged to read and ask questions.
+- A well-crafted handbook fosters **trust, fairness, and employee motivation**, while a poorly written one may create suspicion or resentment.
+
+#### 2. **Introductory Statements**
+- Sample introductory statements clarify that the handbook:
+  - Describes employment expectations and benefits.
+  - Is **not a contract** and does not create contractual obligations.
+  - Reserves the right for the employer (owner/supervisor) to amend policies with employee notification.
+
+#### 3. **Initial Employment/Probationary Period**
+- Typical probationary period: **6 months** from the date of hire.
+- Purpose: Evaluate employee performance and mutual fit.
+- Employment during probation is **“at-will”**, meaning termination can occur for any reason not illegal or against policy.
+- After probation, employees gain protection under Montana's **“good cause”** termination standard per MCA 39-2-901.
+- Probation may be extended due to significant absences or if more evaluation time is needed.
+
+#### 4. **Equal Employment Opportunity (EEO)**
+- Employers commit to a **diverse and discrimination-free workplace**.
+- Prohibited discrimination bases include: race, color, national origin, age, disability, marital status, religion, creed, sex, and political beliefs (*public employers only*).
+- Reasonable accommodations are made for qualified individuals with disabilities unless undue hardship exists.
+- Complaints can be directed to Human Resources, Montana Human Rights Bureau, or the EEOC.
+- Retaliation against complainants is strictly prohibited.
+
+#### 5. **Workweek, Pay Periods, and Time Records**
+- Workweek generally runs Sunday 12:01 a.m. to Saturday midnight.
+- Pay periods often split mid-month; paydays are typically the 5th and 20th.
+- Nonexempt employees must **accurately record work hours** (clock-in/out or time sheets); falsification is grounds for termination.
+- Exempt employees may only track leave for payroll purposes.
+- Overtime must be pre-approved by supervisors.
+
+#### 6. **Payment of Wages at Termination**
+- Final wages must be paid on the next regular payday or within 15 days of separation, whichever is sooner.
+- Common types of termination include resignation, discharge, and layoff.
+- Exit interviews provide a forum to discuss benefits, return company property, and voice concerns.
+
+#### 7. **Employee Discipline**
+- Employers have the right to discipline, suspend, or terminate for **good cause**.
+- Progressive discipline is typical but immediate termination can occur depending on offense severity.
+- Disciplinary steps may include verbal warnings, written warnings, suspension, or termination.
+- Failure to follow written policies can support wrongful discharge claims.
+
+#### 8. **Safety in the Workplace**
+- Employers are committed to a **safe and productive work environment**.
+- Employees must observe safety procedures, report unsafe conditions, and accidents immediately.
+- Safety programs include training, regular inspections, and employee involvement.
+- Positive reinforcement and disciplinary actions promote safe behavior.
+- Compliance with the **Montana Safety Culture Act** is emphasized, requiring documentation and safety education.
+
+#### 9. **Tobacco Use**
+- Tobacco use policies vary from designated smoking areas to complete tobacco-free workplaces.
+- Montana’s **Clean Indoor Air Act** mandates smoke-free enclosed workplaces and public places.
+- Proper signage must be posted to enforce tobacco use policies.
+
+#### 10. **Use of Drugs and Alcohol**
+- Use, possession, or influence of illegal drugs or alcohol on the job is prohibited.
+- Legal prescription drugs are allowed only if they do not impair job performance or safety.
+- Employees must report concerns without fear of reprisal.
+- Montana’s **Workforce Drug and Alcohol Testing Act** governs employment-based testing programs.
+
+#### 11. **Sexual Harassment**
+- Zero tolerance policy for sexual harassment including unwelcome sexual conduct, suggestive materials, verbal abuse, and quid pro quo scenarios.
+- Harassment not involving sexual activity but based on sex (e.g., hazing) is also prohibited.
+- Complaints should be reported to supervisors or HR.
+- Policy is guided by the Montana Human Rights Act.
+
+#### 12. **Unlawful Harassment**
+- Prohibits harassment based on race, color, national origin, age, disability, marital status, religion, creed, or sex.
+- Includes conduct such as ethnic slurs, jokes, coercion, or offensive behavior creating hostile work environments.
+- Complaints can be filed with the Human Rights Bureau or EEOC.
+
+#### 13. **Grievance Procedure**
+- Employees are encouraged to raise workplace concerns with supervisors informally.
+- A formal grievance requires a written complaint submitted within 20 days of the incident.
+- Investigations are conducted promptly, maintaining confidentiality to the extent possible.
+- Findings and corrective actions are communicated, and retaliation against complainants is prohibited.
+
+#### 14. **Additional Policies to Consider**
+- Performance evaluations, employment records, reference checks, use of technology, attendance, ethics, confidentiality, accommodations, benefits, breaks, company property, discipline, visitors, cell phone use, leaves, appearance, workplace etiquette, open door policy, and conduct rules.
+
+#### 15. **Employee Acknowledgement Form**
+- Employees acknowledge receipt and understanding of the handbook.
+- They agree to comply with policies and recognize the handbook is subject to change.
+- Handbook does not constitute a contract.
+
+---
+
+### Summary Table: Key Legal References
+
+| Topic                       | Montana Code Annotated (MCA) Reference                 |
+|-----------------------------|--------------------------------------------------------|
+| Wrongful Discharge Act       | MCA 39-2-901, 39-2-904                                 |
+| Payment of Wages             | MCA 39-3-204, 39-3-205                                 |
+| Safety Culture Act           | MCA 39-71-1501 et seq.                                 |
+| Clean Indoor Air Act         | MCA 50-40-101 et seq.                                  |
+| Drug and Alcohol Testing     | MCA 39-2-205 et seq.                                   |
+| Human Rights Act (Discrimination, Harassment) | MCA Title 49, Chapters 1-4                     |
+
+---
+
+### **Key Takeaways**
+- **Employee handbooks must be clear, current, and legally compliant**, with attorney review recommended.
+- Policies should be consistently enforced to protect against legal claims.
+- Probationary periods allow at-will termination but after that termination requires “good cause” in Montana.
+- Equal opportunity, anti-harassment, safety, and discipline policies are critical and must comply with state laws.
+- Detailed procedures for grievance and complaint reporting ensure fairness and legal protection.
+- Employee acknowledgment reinforces understanding and acceptance of policies.
+
+---
+
+This comprehensive handbook framework supports Montana employers in establishing sound workplace policies while aligning with state legal requirements.

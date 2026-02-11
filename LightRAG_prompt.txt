@@ -1,0 +1,200 @@
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+https://alain-airom.medium.com/hands-on-experience-with-lightrag-6ecbd3499660
+
+
+
+
+LightRAG init parameters
+
+
+class QueryParam:
+    """Configuration parameters for query execution in LightRAG."""
+
+    mode: Literal["local", "global", "hybrid", "naive", "mix", "bypass"] = "global"
+    """Specifies the retrieval mode:
+    - "local": Focuses on context-dependent information.
+    - "global": Utilizes global knowledge.
+    - "hybrid": Combines local and global retrieval methods.
+    - "naive": Performs a basic search without advanced techniques.
+    - "mix": Integrates knowledge graph and vector retrieval.
+    """
+
+    only_need_context: bool = False
+    """If True, only returns the retrieved context without generating a response."""
+
+    only_need_prompt: bool = False
+    """If True, only returns the generated prompt without producing a response."""
+
+    response_type: str = "Multiple Paragraphs"
+    """Defines the response format. Examples: 'Multiple Paragraphs', 'Single Paragraph', 'Bullet Points'."""
+
+    stream: bool = False
+    """If True, enables streaming output for real-time responses."""
+
+    top_k: int = int(os.getenv("TOP_K", "60"))
+    """Number of top items to retrieve. Represents entities in 'local' mode and relationships in 'global' mode."""
+
+    chunk_top_k: int = int(os.getenv("CHUNK_TOP_K", "20"))
+    """Number of text chunks to retrieve initially from vector search and keep after reranking.
+    If None, defaults to top_k value.
+    """
+
+    max_entity_tokens: int = int(os.getenv("MAX_ENTITY_TOKENS", "6000"))
+    """Maximum number of tokens allocated for entity context in unified token control system."""
+
+    max_relation_tokens: int = int(os.getenv("MAX_RELATION_TOKENS", "8000"))
+    """Maximum number of tokens allocated for relationship context in unified token control system."""
+
+    max_total_tokens: int = int(os.getenv("MAX_TOTAL_TOKENS", "30000"))
+    """Maximum total tokens budget for the entire query context (entities + relations + chunks + system prompt)."""
+
+    # History messages are only sent to LLM for context, not used for retrieval
+    conversation_history: list[dict[str, str]] = field(default_factory=list)
+    """Stores past conversation history to maintain context.
+    Format: [{"role": "user/assistant", "content": "message"}].
+    """
+
+    # Deprecated (ids filter lead to potential hallucination effects)
+    ids: list[str] | None = None
+    """List of ids to filter the results."""
+
+    model_func: Callable[..., object] | None = None
+    """Optional override for the LLM model function to use for this specific query.
+    If provided, this will be used instead of the global model function.
+    This allows using different models for different query modes.
+    """
+
+    user_prompt: str | None = None
+    """User-provided prompt for the query.
+    Addition instructions for LLM. If provided, this will be inject into the prompt template.
+    It's purpose is the let user customize the way LLM generate the response.
+    """
+
+    enable_rerank: bool = True
+    """Enable reranking for retrieved text chunks. If True but no rerank model is configured, a warning will be issued.
+    Default is True to enable reranking when rerank model is available.
+    """
+	
+	
+	
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Roles : You are an expert in Light RAG, Experience 5 yr
+Objective : 5 realistic projects for each type : text processing, image processing, audio processing
+Details: Use relevant Python packages
+A paragraph of text, pdf file for text processing,
+An image of regular size for image processing,
+An audio of max 5 min duration for audio processing
+Structure: 
+Ideal result for text processing : important, urgent textual information,  
+Ideal result for image processing :  important elements present in an image, 
+Ideal result for audio processing : important audio tones present in an audio
+
+============================================================================================
+============================================================================================
+============================================================================================
+
+Text processing example :
+
+Roles : You are an expert in Light RAG, Experience 5 yr
+Objective : Design a realistic project for text processing
+Details: Use Python packages PyMuPDF, spaCy, NetworkX. Need to analyse a pdf file which is basically terms and conditions for a service provider company.
+Structure:  Ideal result for text processing : Scans PDFs to identify "High Risk" clauses (indemnity, termination) using graph-based entity linking, 
+
+
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+
+Image processing example :
+
+Roles : You are an expert in Light RAG, Experience 5 yr
+Objective : Design a realistic project for image processing
+Details: Use Python packages Ultralytics (YOLO), NumPy. Need to analyse an image to spot misplaced products in a super market retail shelf.
+Structure:  Ideal result for image processing : Scans image to identify and highlight a product which does not fit in  the overall categoty of products shown in image. Generate new image and highlight the exact product which does not fit.
+
+
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+
+Audio processing example :
+
+Roles : You are an expert in Light RAG, Experience 5 yr
+Objective : Design a realistic project for image processing
+Details: Use Python packages pydub, TextBlob. Need to analyse Extracts prosodic features (pitch/volume) to identify "angry" or "frustrated" tones in service recordings.
+Structure:  Ideal result for audio processing : Analyze the text extracted from audi0 and identify and if customer is angry or frustated. If yes report it else nothing.
+
+https://www.youtube.com/shorts/Klw49GZa2wg
+https://www.youtube.com/watch?v=seQ5RRI6H4c
+https://www.youtube.com/shorts/CN694dHNBrI
+https://www.youtube.com/shorts/xwKJXV55nFk
+https://www.youtube.com/shorts/n0VA-_Omcpg
+https://www.youtube.com/shorts/qR59KoLCk0s
+
+
+
+
+
+
+
+===========================================================================================
+===========================================================================================
+			Prompt to test Light RAG
+===========================================================================================
+===========================================================================================
+===========================================================================================
+Roles : You are an expert in Light RAG, Experience 5 yr. Also you are a Software and AI Test architect, Experience 10 yr.
+Objective : Functional test a LightRAG system.
+Details: 
+A LightRAG system is designed. 
+It accepts text input and a query. 
+Need to test it for practical real life scenarios. 
+Provide 20 distinct ways to test it. 
+Design highly likely cases.
+Design positive, negative, extreme, corner cases.
+
+Structure: Text input minimum 1500 words to max 2000 words, Expected text output.
+
+
+
+===========================================================================================
+===========================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
