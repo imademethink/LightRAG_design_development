@@ -4,6 +4,8 @@
 
 AI assisted Ollama based LightRAG project from scratch (Research, Design, Development)
 
+Google Gemini Prompt link https://gemini.google.com/share/a1060b4b43e8
+
 <img width="1688" height="1125" alt="image" src="https://github.com/user-attachments/assets/273c557a-2c97-44d7-af95-329975c5461e" />
 
 # Steps
