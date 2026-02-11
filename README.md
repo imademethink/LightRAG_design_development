@@ -16,7 +16,7 @@ ollama run gpt-oss:120b-cloud (or your preferred AI model)
 
 git clone https://github.com/imademethink/LightRAG_design_development.git
 
-cd LightRAG_design_development-master
+cd LightRAG_design_development-main
 
 pip install -r requirements.txt
 
